@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:layout_width="298dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/regi" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="You're phone number"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="You're Fullname"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="You're E-mail Address"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="You're Password"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/confirm_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/registration_btn"
+        android:textSize="22sp"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#0055dd"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
